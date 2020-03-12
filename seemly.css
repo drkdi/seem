@@ -1,0 +1,133 @@
+.carousel {
+  width: 1920px;
+  height: 1080px;
+  border: 1px solid black;
+}
+
+.carousel .left-container {
+  width: 40%;
+  height: 100%;
+  float: left;
+}
+
+.carousel .left-container .left {
+  border: 1px solid black;
+  text-align: center;
+  justify-content: center;
+  color: #071630;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel .left-container .left .title {
+  font-family: "linotype-didot";
+  font-size: 100px;
+  padding-top: 15%;
+}
+
+.carousel .left-container .left .navigation {
+  display: inline-block;
+  font-family: "english-grotesque";
+  text-align: center;
+  font-size: 30px;
+  width: 40%;
+}
+
+.carousel .left-container .left .navigation .carousel__arrow {
+  top: 50%;
+  cursor: pointer;
+  opacity: 0.75;
+}
+
+.carousel .left-container .left .video {
+  background-color: gray;
+  width: 266px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel .left-container .left .slideContent {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  font-size: 20px;
+}
+
+.carousel .left-container .left .howDoesItWork {
+  padding-top: 15%;
+}
+
+.carousel .right-container {
+  float: right;
+  width: 60%;
+  height: 100%;
+  position: relative;
+}
+
+.carousel .right-container .right {
+  height: 100%;
+  color: white;
+  background-color: #071630;
+}
+
+.carousel .right-container .right .measurements {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  width: 140px;
+}
+
+.carousel .right-container .right .measurements .title {
+  position: relative;
+  font-family: "bebas-neue";
+  font-size: 40px;
+}
+
+.carousel .right-container .right .measurements .title {
+  height: 40px;
+  background-color: #efefef;
+  color: #5b707e;
+  font-size: 15px;
+  text-align: center;
+  border: none;
+}
+
+.carousel .right-container .right svg {
+  position: absolute;
+  left: -10%;
+  top: 50%;
+  width: 100%;
+}
+
+.carousel .right-container .right svg path {
+  stroke: #dbc27b;
+}
+
+.carousel .right-container .right .footer {
+  position: absolute;
+  bottom: 15%;
+  right: 50%;
+  width: 40%;
+  justify-content: space-evenly;
+}
+.carousel .right-container .right .footer span {
+  opacity: 0.3;
+  padding: 30px;
+  font-family: "english-grotesque";
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.carousel .right-container .right .selected {
+  opacity: 1;
+  color: white;
+  border: 1px solid white;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  border-radius: 5px !important;
+}
+
+.carousel .right-container .right .completed {
+  color: #dbc27b;
+}
